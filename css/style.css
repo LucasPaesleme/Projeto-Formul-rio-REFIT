@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    margin: 0;  /* retira a margem do bg*/
+    min-height: 100vh;  /* Determina o tamanho minimo quando a tela for reduzida*/
+
+}
+
+/* BG-IMG */
+.img-bg{
+    background-image: url(../assets/DJI_0207.jpg);
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/* HEADER */
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 20em;
+}
+
+/* FORMULARIO */
+section.forms{
+    padding: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    background-color: #dad5d5;
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+}
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-content input , select{
+    border-radius: 5px;
+    width: 70%;
+    padding: 4px;
+    border: 1px solid #000;
+    transition: .3s;
+}
+
+span{
+    color: red;
+}
+
+.form-content{
+    padding: 15px;
+}
+
+.form-content .button {
+    width: 70%;
+    border: 0;
+    border-radius: 20px;
+    background-color: #ff0000;
+    height: 3em;
+    cursor: pointer;
+    transition: .3s;
+  }
+.button:hover{
+    background-color: #ff6c3e;
+
+  }
+
+
+  input:hover
+,input:focus,
+textarea:hover,
+textarea:focus{
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.5px #ff6c3e;
+
+}
+
+
+/* TITTLE-TOP */
+
+.tittle-top{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(120deg, #ff6c3e 0%, #ff0000 100%);
+    border-radius: 8px;
+}
+
+.tittle-top h1{
+    font-size: 16px;
+}
+
+
+/* footer */
+
+.img-bg p {
+    padding-bottom: 20px; 
+    text-align: center;
+    margin-top: -40px;
+    color: #fff;
+}
+
+.img-bg p a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+
+textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+    border-radius: 8px;
+}
+

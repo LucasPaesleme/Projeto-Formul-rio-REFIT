@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamados CFTV REFIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/logo-site-refit.ico" type="image/x-icon">
+    <script src="php/forms.php" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="img-bg">
+        <header>
+            <div class="logo">
+                <img src="assets/logo-site-refit.png" alt="Logo da Refinaria de Manguinhos">
+            </div><!--logo-top-->
+        </header>
+        <section class="forms">
+            <div class="form-container">
+                <div class="tittle-top">
+                    <h1>Formulário para abertura de chamados de CFTV</h1>
+                </div><!--tittle-top-->
+                <form id="form" class="form" action="https://formspree.io/f/xgegnavb" method="post">
+                    <div class="form-content" id="form-content">
+                        <label for="name">Operadores<span>*</span></label>
+                        <input type="text"
+                        id="name"
+                        name="Operadores"
+                        placeholder="Nome dos operadores separado por ' / '"
+                        required>
+
+                    </div><!--forms-->
+                    <div class="form-content" id="form-content">
+                        <label for="camera">Câmera<span>*</span></label>
+                        <input type="text"
+                        id="camera"
+                        name="camera"
+                        placeholder="Nome da câmera"
+                        required>
+
+                    </div><!--forms-->
+                    <div class="form-content" id="form-content">
+                        <label for="local">Local <span>*</span></label>
+                        <input type="text"
+                        id="local"
+                        name="local"
+                        placeholder="Ex: REFINARIA / POSTOS"
+                        required>
+
+                    </div><!--forms-->
+                    <div class="form-content" id="form-content">
+                        <label for="local">Descreva o problema da câmera<span>*</span></label>
+                        <textarea name="description" 
+                        id="description" 
+                        cols="70" 
+                        rows="10"
+                        name="description"
+                        required>
+                        </textarea>
+                    </div><!--forms-->
+                    <div class="form-content" id="form-content">
+                        <button type="submit" class="button">Enviar</button>
+                    </div><!--forms-->
+                    
+                </form>
+            </div><!--form-container-->
+        </section><!--form-section-->
+        <p>&copy; 2024 - Todos os direitos reservados. - Este site foi desenvolvido por <a href="https://www.linkedin.com/in/lucasmatheus96/" target="_blank">Lucas Paes</a>.</p>
+    </div><!--background-->
+    
+</body>
+</html>
