@@ -1,5 +1,14 @@
 <div align="center">
   <h1>Meu primeiro projeto usando apenas HTML5, CCS3 e JavaScript</h1>
-  <img src="https://github.com/LucasPaeslp/Portif-lio-Lucas-Paes/assets/125366778/15486f30-1041-4e96-9691-87123e669822" alt="Imagem da pagina inicial do projeto de portifólio de Lucas Paes" />
-  <video autoplay src="https://github.com/LucasPaeslp/Portif-lio-Lucas-Paes/assets/125366778/4ececce5-3561-433c-9a40-3e8277c81dd8" alt="" />
+  <img src="https://github.com/LucasPaesleme/Projeto-Formulario-REFIT/assets/165165973/755ede01-5895-448d-8b12-c975d9a6db44" alt="Imagem do projeto de formulário para faculdade" />
+  <video autoplay src=""/>
+</div>
+
+<div>
+  <p>Esse é um pequeno projeto para a materia extensionista da faculdade, a intenção é identificar um problema na sociedade a qual estou inserido, e por em prática uma solução</p>
+  <p>Tendo isso em vista eu desenvolvi um formulário para abertura de chamado de cftv , visto que meu setor está carente de um formulário desse.</p>
+  <p>
+    A principio o projeto está bem nas suas fases inicais, e bem básico, nesse caso eu realizo o envio do formulário para os e-mails necessários, e para fazer isso eu consumi uma API de FORMSUBMIT, chamada "formspree".
+  </p>
+  <p> O projeto todo foi construido apenas com HTML5 e CSS3 e ainda irá passar por melhorias ao longo dos semestres.</p>
 </div>
