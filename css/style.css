@@ -161,5 +161,8 @@ textarea::placeholder{
     .form-content .button {
         width: 60%;
       }
+      .img-bg p{
+        padding: 15px;
+      }
 
 }
