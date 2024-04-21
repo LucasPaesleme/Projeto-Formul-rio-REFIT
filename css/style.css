@@ -69,16 +69,16 @@ section.forms{
 
 }
 
-#number-id{
+.number-id{
     text-align: right;
     margin: 5px 15px;
 }
-#number-id input{
+.number-id input{
     border-radius: 5px;
     border: 1px solid #000 ;
     width: 25%;
 }
-#number-id input::placeholder{
+.number-id input::placeholder{
     font-size: 12px;
     
 }
