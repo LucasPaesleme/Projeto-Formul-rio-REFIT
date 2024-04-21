@@ -4,7 +4,7 @@
 <a href="https://formulario-cftv.vercel.app" target="_blank">Clique aqui para ir ao projeto.</a>
   
   <img src="https://github.com/LucasPaesleme/Projeto-Formulario-REFIT/assets/165165973/755ede01-5895-448d-8b12-c975d9a6db44" alt="Imagem do projeto de formulário para faculdade" />
-  <video autoplay src=""/>
+  <video autoplay src="">
 </div>
 
 <div>
